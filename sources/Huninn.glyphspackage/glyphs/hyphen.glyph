@@ -1,0 +1,50 @@
+{
+glyphname = hyphen;
+kernLeft = periodcentered;
+kernRight = periodcentered;
+layers = (
+{
+layerId = "162F4A02-D1DE-460C-9ADC-EEB0D0B313BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(291,262,ls),
+(313,262,o),
+(332,279,o),
+(332,302,cs),
+(332,325,o),
+(313,343,o),
+(291,343,cs),
+(106,343,ls),
+(83,343,o),
+(66,325,o),
+(66,302,cs),
+(66,280,o),
+(84,262,o),
+(106,262,cs)
+);
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 398;
+}
+);
+note = hyphen;
+unicode = 45;
+}

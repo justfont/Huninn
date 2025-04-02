@@ -1,0 +1,43 @@
+{
+glyphname = boxHeavyDownAndHorizontal;
+layers = (
+{
+layerId = "162F4A02-D1DE-460C-9ADC-EEB0D0B313BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(559,-106,l),
+(559,321,l),
+(984,321,l),
+(984,438,l),
+(15,438,l),
+(15,321,l),
+(441,321,l),
+(441,-106,l)
+);
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = uni2533;
+unicode = 9523;
+}

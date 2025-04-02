@@ -1,4 +1,4 @@
-Copyright 2025 The Justfont-Huninn.Git Project Authors (https://github.com/justfont/Justfont-Huninn.git)
+Copyright 2025 The Huninn Project Authors (https://github.com/justfont/Huninn.git)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

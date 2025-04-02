@@ -1,0 +1,52 @@
+{
+color = 2;
+glyphname = dotaboverightcomb;
+layers = (
+{
+anchors = (
+{
+name = _odot;
+pos = (-33,592);
+}
+);
+layerId = "162F4A02-D1DE-460C-9ADC-EEB0D0B313BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-6,543,o),
+(18,566,o),
+(18,593,cs),
+(18,621,o),
+(-6,644,o),
+(-33,644,cs),
+(-61,644,o),
+(-84,621,o),
+(-84,593,cs),
+(-84,566,o),
+(-61,543,o),
+(-33,543,cs)
+);
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 0;
+}
+);
+unicode = 856;
+}

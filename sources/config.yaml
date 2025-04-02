@@ -1,6 +1,6 @@
 sources:
-  - JustfontHuninn-Regular.glyphs
-familyName: Justfont Huninn
+  - Huninn.glyphspackage
+familyName: Huninn
 buildVariable: False
 autohintTTF: False
 buildOTF: False

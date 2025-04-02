@@ -1,8 +1,5 @@
 # This script is meant to be run from the root level
-# of your font's git repository. For example, from a Unix terminal:
-# $ git clone my-font
-# $ cd my-font
-# $ python3 documentation/image1.py --output documentation/image1.png
+# $ python3 documentation/sample.py --output documentation/sample.png
 
 # Import moduels from external python packages: https://pypi.org/
 from drawbot_skia.drawbot import *
@@ -16,12 +13,12 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/ttf/JustfontHuninn-Regular.otf"
+FONT_PATH = "fonts/ttf/Huninn-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "Justfont Huninn"
+LINE_ONE = "Huninn"
 LINE_TWO = "食粉圓，拜樹頭；"
 LINE_THREE = "加粉圓，都免錢。"
 LINE_FOUR = "Beh tshì-khuànn-māi bô？"
@@ -29,10 +26,10 @@ BIG_TEXT_FONT_SIZE = 140
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1.5
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
 
-GRID_VIEW = False # Toggle this for a grid overlay
+GRID_VIEW = False  # Toggle this for a grid overlay
 
 # Handel the "--output" flag
-# For example: $ python3 documentation/image1.py --output documentation/image1.png
+# For example: $ python3 documentation/sample.py --output documentation/sample.png
 parser = argparse.ArgumentParser()
 parser.add_argument("--output", metavar="PNG", help="where to write the PNG file")
 args = parser.parse_args()
@@ -46,7 +43,8 @@ ttFont = TTFont(FONT_PATH)
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
-FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
+font_revision = float(floatToFixedToStr(ttFont["head"].fontRevision, 16))
+FONT_VERSION = f"v{font_revision:.3f}"
 
 
 # Draws a grid
