@@ -9,5 +9,5 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Ho Ching-Ru <contact@chingru.me>
+Ho Ching-Ru <chingru@justfont.com>
 
