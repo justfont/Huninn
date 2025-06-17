@@ -72,6 +72,16 @@ In contrast, **open-huninn-font** uses justfont own unified font metrics, consis
 
 Since **Huninn** is available on platforms that support Google Fonts, such as Google Docs, please note that if you download documents with Huninn, but later apply jf-open-huninn locally, there may be slight layout shifts. Keep this in mind when switching between the two.
 
+## Get the Font
+
+- Github Releases
+  - https://github.com/justfont/Huninn/releases
+- Google Fonts
+  - https://fonts.google.com/specimen/Huninn
+- Homebrew Formulae
+  - https://formulae.brew.sh/cask/font-huninn
+  - or run `brew install --cask font-huninn`
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the “Actions” tab for the latest build.
