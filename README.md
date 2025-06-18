@@ -16,13 +16,13 @@
 
 Huninn (粉圓) is an open-source Traditional Chinese Rounded Typeface project developed by [justfont](https://justfont.com). 
 
-🆕 Huninn is now on [🔗 Google Fonts](https://fonts.google.com/specimen/Huninn) !
+🆕 Huninn is now available on [🔗 Google Fonts](https://fonts.google.com/specimen/Huninn) !
 
 </div>
 
 ---
 
-This project was initiated as a way to give back to the community following the success of the 2015 crowdfunding campaign for [JinXuan (金萱)](https://blog.justfont.com/2025/03/jinxuan-en/). As promised, an open-source font optimized for Taiwanese users was created and given as a gift to the Taiwanese community. 
+This project was initiated as a way to give back to the community following the success of the 2015 crowdfunding campaign for [JinXuan Font Family (金萱)](https://blog.justfont.com/2025/03/jinxuan-en/). As promised, an open-source font optimized for Taiwanese users was created and given as a gift to the Taiwanese community. 
 
 The typeface is based on the Japanese existing open-source font [Kosugi Maru (小杉丸ゴシック)](https://github.com/googlefonts/kosugi-maru), originally developed by Motoya Co., Ltd and the Latin characters were replaced with another open-source font, [Varela Round](https://fonts.google.com/specimen/Varela+Round), designed by Joe Prince and Avraham Cornfeld, to ensure a cohesive and high-quality bilingual experience. 
 
@@ -58,27 +58,42 @@ Additionally, justfont enhanced the font’s grayscale rendering and repositione
   - To align with Taiwan’s typesetting conventions, which require centered punctuation, we made key adjustments in developing open Huninn. 
   - These changes ensure the typeface meets the needs of our local audience effectively.
 
-- **Fully Support jf7000 Charset**:
-  - Read more about jf7000 Charset: [justfont/jf7000](https://github.com/justfont/jf7000).
-  - Supports Taiwanese and Hakka Romanization writing system, as well as Indigenous Formosan languages.
+- **Fully Support jf 7000 Character Set**:
+  - Read more about jf 7000 Character Set: [justfont/jf7000](https://github.com/justfont/jf7000).
+  - Supports Taigi and Hokkien romanization phonetic symbols, as well as Indigenous Formosan languages.
 
 ![rework](/documentation/rework.png)
 
 ## Relationship between Huninn and jf-open-huninn
 
-**Huninn** is a fork of ([justfont/open-huninn-font](https://github.com/justfont/open-huninn-font)). Both fonts share the same design and features. However, due to Google Fonts onboarding requirements, **Huninn** adopts Google Fonts metrics (for example, higher `usWinAscent` and `usWinDescent`). For more details, you can refer to [Google Fonts Guide](https://googlefonts.github.io/gf-guide/index) and [C/J vertical metrics requirements #8911](https://github.com/google/fonts/issues/8911).
+**Huninn** is a fork of ([justfont/open-huninn-font](https://github.com/justfont/open-huninn-font)). **Both fonts have the same design and features.** 
 
-In contrast, **open-huninn-font** uses justfont own unified font metrics, consistent with other justfont typefaces. This ensures better visual consistency when mixing fonts in layouts.
+However, due to Google Fonts onboarding requirements, **Huninn** uses Google Fonts's specification. For more details, you can refer to [Google Fonts Guide](https://googlefonts.github.io/gf-guide/index) and [C/J vertical metrics requirements #8911](https://github.com/google/fonts/issues/8911).
 
-Since **Huninn** is available on platforms that support Google Fonts, such as Google Docs, please note that if you download documents with Huninn, but later apply jf-open-huninn locally, there may be slight layout shifts. Keep this in mind when switching between the two.
+In contrast, **open-huninn-font** retains some of the original metrics from **Kosugi Maru**, while also incorporating **justfont’s own unified font metrics**. This ensures better visual consistency when used alongside other justfont typefaces in layouts.
 
-## Get the Font
+Since **Huninn** is available on Google Fonts, such as Google Docs, if you download documents with Huninn, but later apply jf-open-huninn locally, there may be slight layout shifts.
+
+|                     	| jf-open-huninn 	| Huninn @ Google Fonts  	|
+|---------------------	|----------------	|------------------------	|
+| Latest Version      	| 2.1            	| 1.003                  	|
+| UPM (Units Per Em)  	| 1024           	| 1000                   	|
+| hhea.ascender       	| 871            	| 940 (~emBoxTop+60)      	|
+| hhea.descender      	| -153           	| -180 (~emBoxBottom-60)  	|
+| hhea.lineGap        	| 0              	| 0                      	|
+| OS/2.usWinAscent    	| 1000           	| 1066 (~1.16*upm)       	|
+| OS/2.usWinDescent   	| 150            	| 273 (~0.288*upm)       	|
+| OS/2.sTypoLineGap   	| 0              	| 0                      	|
+| OS/2.sTypoAscender  	| 871            	| 940 (~hhea.ascender)   	|
+| OS/2.sTypoDescender 	| -153           	| -180 (~hhea.descender) 	|
+
+## Download & Use
 
 - Github Releases
   - https://github.com/justfont/Huninn/releases
 - Google Fonts
   - https://fonts.google.com/specimen/Huninn
-- Homebrew Formulae
+- Homebrew
   - https://formulae.brew.sh/cask/font-huninn
   - or run `brew install --cask font-huninn`
 
@@ -115,12 +130,12 @@ The SIL Open Font License is available with a FAQ at [https://openfontlicense.or
 
 ## About justfont
 
-Established in 2010, justfont is a Taiwan-based new-generation type design and typography education business. Renowned works including the world's first crowdfunded Chinese font [*Jin Xuan*](https://justfont.com/jinxuan/). justfont also supports various independent type designers in Taiwan, with prominent cases such as [*Cream Font*](https://justfont.com/creamfont/), [*Burn Font*](https://justfont.com/burnfont/), [*Tears Font*](https://justfont.com/tearsfont), and [*Taiwan Road Font*](https://justfont.com/twroadfont/).
+Established in 2010, justfont is a Taiwan-based new-generation type design and typography education business. Renowned works including the world's first crowdfunded Chinese font [*JinXuan*](https://justfont.com/jinxuan/). justfont also supports various independent type designers in Taiwan, with prominent cases such as [*Cream Font*](https://justfont.com/creamfont/), [*Burn Font*](https://justfont.com/burnfont/), [*Tears Font*](https://justfont.com/tearsfont), and [*Taiwan Road Font*](https://justfont.com/twroadfont/).
 
 A better typographic landscape begins with the strokes we create today. At justfont, we believe in the value of typefaces and are convinced that great typefaces can inspire society. 
 
 Beyond meticulously crafting each stroke, we aspire to be pioneers, educators, and mentors in typeface promotion and education, dedicated to nurturing Taiwan’s next generation of design talent. We aim to elevate Taiwan’s aesthetic environment by focusing on infrastructure and education.
 
-View our website here: https://justfont.com
+🔗 View our website here: https://justfont.com
 
 ![justfont logo](https://raw.githubusercontent.com/justfont/open-huninn-font/master/image/jf-logo-full-small.jpg)
