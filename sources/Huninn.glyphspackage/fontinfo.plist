@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3436";
 .formatVersion = 3;
 customParameters = (
 {
@@ -198,7 +198,7 @@ lookup ccmp_tl_poj {
 	# 2th tone of TL, POJ
 	sub a acutecomb by aacute;
 	sub e acutecomb by eacute;
-	sub i acutecomb by iacute;
+	sub [i idotless] acutecomb by iacute;
 	sub idotless acutecomb by iacute;
 	sub o acutecomb by oacute;
 	sub u acutecomb by uacute;
@@ -219,7 +219,7 @@ lookup ccmp_tl_poj {
 	# 3th tone of TL, POJ
 	sub a gravecomb by agrave;
 	sub e gravecomb by egrave;
-	sub i gravecomb by igrave;
+	sub [i idotless] gravecomb by igrave;
 	sub idotless gravecomb by igrave;
 	sub o gravecomb by ograve;
 	sub u gravecomb by ugrave;
@@ -240,7 +240,7 @@ lookup ccmp_tl_poj {
 	# 5th tone of TL, POJ
 	sub a circumflexcomb by acircumflex;
 	sub e circumflexcomb by ecircumflex;
-	sub i circumflexcomb by icircumflex;
+	sub [i idotless] circumflexcomb by icircumflex;
 	sub idotless circumflexcomb by icircumflex;
 	sub o circumflexcomb by ocircumflex;
 	sub u circumflexcomb by ucircumflex;
@@ -261,7 +261,7 @@ lookup ccmp_tl_poj {
 	# 6th tone of TL
 	sub a caroncomb by acaron;
 	sub e caroncomb by ecaron;
-	sub i caroncomb by icaron;
+	sub [i idotless] caroncomb by icaron;
 	sub idotless caroncomb by icaron;
 	sub o caroncomb by ocaron;
 	sub u caroncomb by ucaron;
@@ -282,7 +282,7 @@ lookup ccmp_tl_poj {
 	# 7th tone of TL, POJ
 	sub a macroncomb by amacron;
 	sub e macroncomb by emacron;
-	sub i macroncomb by imacron;
+	sub [i idotless] macroncomb by imacron;
 	sub idotless macroncomb by imacron;
 	sub o macroncomb by omacron;
 	sub u macroncomb by umacron;
@@ -303,7 +303,7 @@ lookup ccmp_tl_poj {
 	# 8th tone of TL, POJ
 	sub a verticallineabovecomb by a_verticallineabovecomb;
 	sub e verticallineabovecomb by e_verticallineabovecomb;
-	sub i verticallineabovecomb by i_verticallineabovecomb;
+	sub [i idotless] verticallineabovecomb by i_verticallineabovecomb;
 	sub idotless verticallineabovecomb by i_verticallineabovecomb;
 	sub o verticallineabovecomb by o_verticallineabovecomb;
 	sub u verticallineabovecomb by u_verticallineabovecomb;
@@ -325,7 +325,7 @@ lookup ccmp_tl_poj {
 	# 9th tone of TL
 	sub a hungarumlautcomb by a_hungarumlautcomb;
 	sub e hungarumlautcomb by e_hungarumlautcomb;
-	sub i hungarumlautcomb by i_hungarumlautcomb;
+	sub [i idotless] hungarumlautcomb by i_hungarumlautcomb;
 	sub idotless hungarumlautcomb by i_hungarumlautcomb;
 	sub o hungarumlautcomb by ohungarumlaut;
 	sub u hungarumlautcomb by uhungarumlaut;
@@ -346,7 +346,7 @@ lookup ccmp_tl_poj {
 	# 9th tone of POJ
 	sub a brevecomb by abreve;
 	sub e brevecomb by ebreve;
-	sub i brevecomb by ibreve;
+	sub [i idotless] brevecomb by ibreve;
 	sub idotless brevecomb by ibreve;
 	sub o brevecomb by obreve;
 	sub u brevecomb by ubreve;
@@ -14985,5 +14985,5 @@ y_caroncomb = {
 };
 };
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
